@@ -1,0 +1,46 @@
+.form-input {
+    display: grid;
+    justify-content: center;
+    grid-gap:8px;
+
+    & > * {
+        padding-left: 20px;
+    }
+
+    &__label {
+        font-size: 15px;
+
+    }
+    &__input {
+        box-sizing: border-box;
+        height: 39px;
+        width: 426px;
+        border: 1px solid rgb(9, 88, 87);
+        border-radius: none;
+        color: #333333;
+        font-size: 22px;
+    }
+}
+
+.form-button {
+    display: grid;
+    justify-content: center;
+    &__button {
+        height: 38px;
+        width: 243px;
+        border-radius: 20px;
+        background-color:  rgb(244, 248, 14);
+
+        font-size: 20px;
+        color: black;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__gray-button {
+        background: rgb(9, 88, 87);
+        width: 137px;
+    }
+}
